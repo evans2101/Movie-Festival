@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "f625",
+      "username": "testregister",
+      "password": "123123",
+      "role": "user"
+    },
+    {
+      "id": "c5c4",
+      "username": "testsaja",
+      "password": "123123",
+      "role": "user"
+    },
+    {
+      "id": "31c7",
+      "username": "testrerere",
+      "password": "123123",
+      "role": "user"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Evans Moris: The Beginning",
+      "description": "A documentary about the early life of Evans Moris.",
+      "duration": 120,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 1002,
+      "votes": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Evans Moris Live in Concert",
+      "description": "A live performance of Evans Moris' greatest hits.",
+      "duration": 140,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Concert",
+        "Music"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 1515,
+      "votes": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Evans Moris: Behind the Scenes",
+      "description": "An inside look at the making of Evans Moris' albums.",
+      "duration": 95,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 842,
+      "votes": [
+        "5",
+        "6",
+        "2"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "The Sound of Evans Moris",
+      "description": "Exploring the unique musical style of Evans Moris.",
+      "duration": 105,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Music",
+        "Biography"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 1148,
+      "votes": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Evans Moris: Unplugged",
+      "description": "An acoustic session with Evans Moris.",
+      "duration": 867,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Acoustic",
+        "Music"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 950,
+      "votes": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Evans Moris: The Journey",
+      "description": "A biography of Evans Moris' rise to fame.",
+      "duration": 115,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Biography",
+        "Music"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 1300,
+      "votes": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Evans Moris: The Greatest Hits",
+      "description": "A collection of Evans Moris' most popular songs.",
+      "duration": 130,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Music",
+        "Compilation"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 1606,
+      "votes": [
+        "13",
+        "14"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Evans Moris: Music and Life",
+      "description": "A deep dive into the influence of music in Evans Moris' life.",
+      "duration": 100,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Biography",
+        "Music"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 900,
+      "votes": [
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Evans Moris: Acoustic Nights",
+      "description": "A live acoustic performance by Evans Moris.",
+      "duration": 90,
+      "artists": [
+        "Evans Moris"
+      ],
+      "genres": [
+        "Acoustic",
+        "Live"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=Pphx0G6ngd0",
+      "views": 870,
+      "votes": [
+        "17",
+        "18"
+      ]
+    }
+  ]
+}
