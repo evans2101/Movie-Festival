@@ -1,34 +1,91 @@
-# Movie Festival
+# Movie Festival System
 
-**Movie Festival** is a web application that allows users to browse, search, and vote for movies. The platform displays a list of movies with details like title, description, genres, artists, and video embed options. Users can view movie details, vote for their favorite movies, and explore various genres.
+## 📌 Project Overview
+Movie Festival System adalah aplikasi berbasis web yang memungkinkan pengguna untuk mengelola festival film, termasuk pendaftaran film, jadwal tayang, dan pemesanan tiket.
+
+## 🚀 Tech Stack
+### Frontend
+- **Vue 3** - Framework JavaScript modern
+- **Vue Router** - Manajemen routing
+- **Pinia** - State management
+- **Axios** - HTTP client untuk komunikasi API
+- **Chart.js** - Visualisasi data
+- **Vue Test Utils** - Unit testing
+
+### Backend
+- **Express.js** - Server backend
+- **JSON Server** - API mockup
+- **JWT (jsonwebtoken)** - Autentikasi token
+- **Bcrypt.js** - Hashing password
+- **CORS** - Middleware untuk CORS handling
+
+### Testing
+- **Jest & Vue Test Utils** - Unit testing
+- **Cypress** - End-to-End testing
+- **Vitest** - Alternative testing framework
+
+## 📂 Project Structure
+```
+movie-festival-system/
+├── src/      # Kode sumber frontend (Vue 3)
+│   ├── assets/     # Gambar, CSS, dll.
+│   ├── components/ # Komponen Vue
+│   ├── pages/      # Halaman aplikasi
+│   ├── router/     # Konfigurasi Vue Router
+│   ├── services/   # Manajemen services
+│   ├── store/      
+│   ├── tests/           # Unit test
+│   ├── public/          # File statis
+│   ├── package.json     # Konfigurasi proyek frontend
+│   ├── vite.config.js   # Konfigurasi Vite
+│
+├── backend/       # Kode sumber backend (Express.js)
+│   ├── db.json/    # Data Collection (Movie & User)
+│
+├── README.md      # Dokumentasi proyek
+```
+
+## 🎯 Installation & Setup
+### 1️⃣ Clone Repository
+```sh
+git clone https://github.com/evans2101/Movie-Festival.git
+cd Movie-Festival
+```
+
+### 2️⃣ Install Dependencies
+**Frontend**
+```sh
+npm install
+```
+
+### 3️⃣ Running the Project
+**Jalankan Frontend**
+```sh
+npm run serve
+```
+Akses aplikasi di `http://localhost:8080`
+
+**Jalankan Backend**
+```sh
+npx json-server --watch backend/db.json --port 3000
+```
+API berjalan di `http://localhost:3000`
+
+## 🧪 Testing
+**Unit Testing (Frontend & Backend)**
+```sh
+npm run test
+```
+
+## 🚀 Deployment
+### Build Frontend
+```sh
+npm run build
+```
+Folder hasil build akan berada di `/dist`.
+
+## 📜 License
+MIT License.
 
 ---
-
-## Features
-
-- **Movie List**: Display a paginated list of movies with basic information.
-- **Search Functionality**: Allows users to search movies by title, description, artists, or genres.
-- **Movie Details**: View detailed information about a specific movie, including genres, artists, and an embedded video.
-- **Voting System**: Users can vote for movies. Each movie's vote count is updated in real-time.
-- **User Authentication**: Users need to log in to vote for movies. A login popup is shown when users attempt to vote without being logged in.
-- **Responsive Design**: The app is responsive and works across devices such as desktops, tablets, and smartphones.
-
----
-
-## Installation
-
-### Prerequisites
-
-Make sure you have the following installed on your local machine:
-
-- Node.js (v12 or higher)
-- npm or yarn
-- A running backend API (the app expects a movie API at `http://localhost:3000/movies`)
-
-### Step-by-Step Setup
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/movie-festival.git
-   cd movie-festival
+🎉 **Selamat menggunakan Movie Festival System!**
